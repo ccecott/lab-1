@@ -84,23 +84,31 @@ p {
     width: 50%;
 }
 main {
-    display: flex;
+   
     margin-top: 100px;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
 }
 main .button {
     display: inline-block
     
 }
+
 .scroll {
-    position: absolute;
+    position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    top: 100%;
+    bottom: 0;
+  
     
 }
 .circle {
     position: relative;
-    left: 100px;
+    left: 500px;
+    bottom: 100px;
+    width: 200px;
 }
 .one {
     background-color: rgba(247,136,167,0.6);

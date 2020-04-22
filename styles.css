@@ -87,9 +87,10 @@ main {
    
     margin-top: 100px;
 }
-.bottom {
+.paragraph {
     display: flex;
     flex-direction: column;
+    
 }
 main .button {
     display: inline-block
@@ -105,10 +106,12 @@ main .button {
     
 }
 .circle {
-    position: relative;
-    left: 500px;
-    bottom: 100px;
-    width: 200px;
+    position: relative; 
+    right: 50px; 
+    bottom: 200px;
+     /* width: 200px;  */
+     display: flex;
+     justify-content: flex-end;
 }
 .one {
     background-color: rgba(247,136,167,0.6);
@@ -116,6 +119,8 @@ main .button {
     height: 280px;
     border-radius: 50%;
     position: absolute;
+    top: 20px;
+    right: 30px;
 }
 .two {
     background-color: rgba(247,193,162,0.7);
@@ -123,6 +128,8 @@ main .button {
     height: 200px;
     border-radius: 50%;
     position: absolute;
+    top: 200px;
+    right: -25px;
 }
 .three {
     background-color: rgba(207,130,213,0.6);
@@ -130,6 +137,8 @@ main .button {
     height: 150px;
     border-radius: 50%;
     position: absolute;
+    top: 90px;
+    right: -35px;
 }
 
 }

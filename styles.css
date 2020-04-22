@@ -83,7 +83,45 @@ li {
 p {
     width: 50%;
 }
-
-
+main {
+    display: flex;
+    margin-top: 100px;
+}
+main .button {
+    display: inline-block
+    
+}
+.scroll {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    
+}
+.circle {
+    position: relative;
+    left: 100px;
+}
+.one {
+    background-color: rgba(247,136,167,0.6);
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    position: absolute;
+}
+.two {
+    background-color: rgba(247,193,162,0.7);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+}
+.three {
+    background-color: rgba(207,130,213,0.6);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+}
 
 }
